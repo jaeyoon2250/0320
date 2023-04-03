@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <table border="1">
+            <tr>
+                <th colspan="2">간단한 입력 양식</th>
+            </tr>
+            <tr>
+                <td><label for="username">이름</label></td>
+                <td align="center"><input id="username" type="text" name="username" placeholder="성명입력"></td>
+            </tr>
+            
+            <tr>
+                <td>성별</td>
+                <td>
+                    <input id= "male" type="radio" name="gender" value="m">
+                    <label for="male">남성</label>
+                    <input id="female" type="radio" name="gender" value="g">
+                    <label for="female">여성</label>
+                </td>
+            </tr>    
+        </table>
+        <input type="submit" value="가입">
+        <input type="reset" value="취소">
+    </form>
+</body>
+</html>
